@@ -1,0 +1,294 @@
+/*样式重置*/
+body,
+div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+fieldset, img { border:none; }
+img{display: block;}
+ul, ol { list-style:none; } 
+a {text-decoration:none; }
+
+/*头部*/
+.header{
+	width: 100%;
+	height: 255px;
+}
+/*顶部注册*/
+.header_nav{
+	width: 100%;
+	height: 34px;
+	background-color: #F9F9F9;
+	border-bottom: 1px solid #E5E5E5;
+}
+.header_nav_box{
+	width: 1230px;
+	height: 34px;
+	margin: 0 auto;
+	line-height: 34px;
+	font-size: 12px;
+	position: relative;
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+}
+.left a{
+	color: #FE6400;
+	padding: 0 5px;
+	cursor: pointer;
+}
+.right{float: right;}
+.right ul li{
+	float: left;
+	padding: 0 15px;
+	position: relative;
+	border-left: 1px solid #F9F9F9;
+	border-right: 1px solid #F9F9F9;
+}
+.right ul li:nth-child(1) a{color: #FE6400;}
+.right ul li a{cursor: pointer;color: black;}
+.l2 .con{
+	display: none;
+	background-color: #FFFFFF;
+	width: 100px;
+	border-top: none;
+	position: absolute;
+	top: 35px;
+	left: -1px;
+	padding-left: 15px;
+	padding: 10px;
+	padding-top: 10px;
+}
+.right ul li:hover{
+	background-color: white;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	}
+.right ul li:hover a{color: #FE6400;}
+.right ul .l2:hover .con{display: block;}
+.right ul .l2 .con dt dt,dd:hover a{color: #FE6400;}
+
+
+.header_logo{
+	width: 1230px;
+	height: 144px;
+	margin: 15px auto;
+	position: relative;
+	padding: 15px 0;
+}
+.header_logo_l{
+	float: left;
+}
+.header_logo_l h1{
+	width: 191px;
+	height: 54px;
+	background: url(../images/logo.png) no-repeat center;
+	background-size: 191px 54px;
+}
+.header_logo_m{
+	width: 684px;
+	height: 70px;
+	float: left;
+	padding-left: 100px;
+}
+.clearfix{
+	width: 584px;
+	height: 70px;
+}
+.clearfix .tab{
+	width: 584px;
+	height: 25px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.clearfix .tab li{
+	width: 58px;
+	height: 25px;
+	border-radius: 5px 5px 0 0;
+	float: left;
+	margin-bottom: -1px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.clearfix .tab li:nth-child(1){background-color: #fe6400;color: white;}
+.tab_content .tab-pane{
+	width: 584px;
+	height: 40px;
+}
+.tab_content .tab-pane input{
+	width: 464px;
+	height: 40px;
+	color: #666666;
+	border-color: #FE6400;
+	border-style: solid;
+	border-width: 2px 0px 2px 2px;
+	float: left;
+	
+}
+.tab_content .tab-pane button{
+	width: 120px;
+	height: 40px;
+	background-color: #FE6400;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: left;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 400;
+}
+
+.header_logo_r{
+	width: 188px;
+	height: 33px;
+	float: right;
+	margin-top: 30px;
+	background-color: #F2F2F2;
+	line-height: 33px;
+	text-align: center;
+	border: 1px solid #ddd;
+	position: relative;
+	font-size: 12px;
+}
+.header_logo_r .icon-car{
+	background: url(../images/buycar.png) no-repeat -2px 3px;
+	width: 33px;
+	height: 33px;
+	position: absolute;
+	display: block;
+}
+.header_logo_r a{
+	display: block;
+	width: 130px;
+	height: 33px;
+	color: #555555;
+	cursor: pointer;
+	padding-left: 20px;
+	float: left;
+}
+.header_logo_r em{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	font-style: normal;
+	background-color: #FE6400;
+	border-radius: 50%;
+	margin-left: -18px;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+}
+
+.header_menu{
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #FE6400;
+}
+.header_menu_box{
+	width: 1230px;
+	height: 45px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.totalcommodity{
+	width: 190px;
+	height: 523px;
+	z-index: 1;
+	position: absolute;
+}
+.tcList{
+	width: 190px;
+	height: 523px;
+	display: block;
+	margin-top: 0;
+	position: relative;
+	z-index: 2;
+	background-color: #FE6400;
+}
+.tcList li{
+	height: 42px;
+	width: 190px;
+	line-height: 42px;
+	color: #FEFCFC;
+	font-size: 13px;
+	cursor: pointer;
+	position: relative;
+}
+.tcList li a{
+	color: #FFFFFF;
+	padding-left: 30px;
+	display: block;
+}
+.tcList li:nth-child(1){
+	background: url(../images/icon1.png) no-repeat 8px center;
+}
+.tcList li:hover{
+	background-color: #F7E1B5;
+}
+.tcList li:hover a{
+	color: black;
+}
+.submenu{
+	/*display: none;*/
+	position: absolute;
+	width: 150px;
+	height: auto;
+	left:190px;
+	top: 0px;
+	z-index: 999;
+	border: 1px solid #CCCCCC;
+	background-color: #FFF;
+	padding: 15px;
+}
+.submenu li{
+	width: 115px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 13px;
+	padding-left: 0px;
+}
+.submenu li:nth-child(1){
+	background: none;
+}
+.submenu li a{
+	color: black;
+}
+.submenu li:hover{
+	background-color: #FE6400;
+}
+.submenu li:hover a{
+	color: white;
+}
+.tcList li:nth-child(1):hover .submenu:nth-child(1){
+	display: block;
+}
+
+
+
+.yMenuIndex{
+	margin-left: 190px;
+	width: auto;
+	height: 45px;
+}
+.yMenuIndex li{
+	float: left;
+	height: 45px;
+	padding: 0 12px;
+	font-size: 13px;
+	line-height: 45px;
+}
+.yMenuIndex li a{
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	color: #333333;
+	line-height: 45px;
+	padding: 0 21px;
+}

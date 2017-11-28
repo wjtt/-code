@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>摩宝网</title>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css"/>-->
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_nav">
+				<div class="header_nav_box">
+					<div class="left header_nav_box_left">
+						"您好！欢迎来摩宝网"
+						<a href="login.html">请登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div class="right header_nav_box_right">
+						<ul>
+							<li class="l1"><a href="/index.html">摩宝网首页</a></li>
+							<li class="l2">
+								<div class="nav">
+									<a href="我的订单">我的订单</a>
+								</div>
+								<div class="con">
+									<dl>
+										<dt><a href="#">待处理的订单</a></dt>
+										<dd><a href="#">已买到的商品</a></dd>
+									</dl>
+								</div>
+								
+							</li>
+							<li class="l3"><a href="#">我的收藏</a></li>
+							<li class="l4"><a href="#">会员中心</a></li>
+							<li class="l5"><a href="#">联系客服</a></li>
+							<li class="l6"><a href="#">帮助中心</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header_logo">
+				<div class="header_logo_l">
+					<h1><a href="/index.html"></a></h1>
+				</div>
+				<div class="header_logo_m">
+					<form class="clearfix" action="商品清单" method="get" id="search">
+						<ul class="tab">
+							<!--<a id="goods" aria-controls="home" role="tab" data-toggle="tab">商品</a>-->
+							<!--<a id="shop" aria-controls="profile" role="tab" data-toggle="tab">商家</a>-->
+							<li role="presentation" class="active"><a id="goods">商品</a></li>
+							<li role="presentation"><a id="shop">商家</a></li>
+						</ul>
+						<div class="tab_content">
+							<div role="tabpanel" class="tab-pane active">
+		                        <input class="search-text" accesskey="" name="search" id="key" autocomplete="off" placeholder="搜索内容" type="text">
+		                        <button class="button" onclick="search('key');return false;">搜索</button>
+		                    </div>
+						</div>
+					</form>
+				</div>
+				<div class="header_logo_r">
+					<i class="icon-car"></i>
+					<a href="cart.html">我的购物车</a><em>0</em>
+				</div>
+			</div>
+			<div class="header_menu">
+				<div class="header_menu_box">
+					<div class="totalcommodity">
+						<ul class="tcList">
+							<li><a href="#">全部商品分类</a></li>
+							<li class="menulistselect"><a href="fuzhuang">服装内衣</a>
+								<ul class="submenu">
+									<li><a href="/index.html">女装</a></li>
+									<li><a href="/index.html">男装</a></li>
+									<li><a href="/index.html">内衣</a></li>
+									<li><a href="/index.html">配饰</a></li>
+									<li><a href="/index.html">童装童鞋</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="xiexiang">鞋箱饰品</a>
+								<ul class="submenu">
+									<li><a href="/index.html">时尚女鞋</a></li>
+									<li><a href="/index.html">流行男鞋</a></li>
+									<li><a href="/index.html">潮流女包</a></li>
+									<li><a href="/index.html">精品男包</a></li>
+									<li><a href="/index.html">功能箱包</a></li>
+									<li><a href="/index.html">奢侈品</a></li>
+									<li><a href="/index.html">礼品</a></li>
+									<li><a href="/index.html">珠宝首饰</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="zhongbiao">运动钟表</a>
+								<ul class="submenu">
+									<li><a href="/index.html">运动鞋包</a></li>
+									<li><a href="/index.html">运动服饰</a></li>
+									<li><a href="/index.html">健身训练</a></li>
+									<li><a href="/index.html">骑行运动</a></li>
+									<li><a href="/index.html">体育用品</a></li>
+									<li><a href="/index.html">户外鞋服</a></li>
+									<li><a href="/index.html">户外装备</a></li>
+									<li><a href="/index.html">垂钓用品</a></li>
+									<li><a href="/index.html">游泳用品</a></li>
+									<li><a href="/index.html">钟表</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="jiaju">家装厨具</a>
+								<ul class="submenu">
+									<li><a href="/index.html">厨具</a></li>
+									<li><a href="/index.html">家纺</a></li>
+									<li><a href="/index.html">生活日用</a></li>
+									<li><a href="/index.html">家装软饰</a></li>
+									<li><a href="/index.html">灯具</a></li>
+									<li><a href="/index.html">家具</a></li>
+									<li><a href="/index.html">家装主材</a></li>
+									<li><a href="/index.html">厨房卫浴</a></li>
+									<li><a href="/index.html">五金电工</a></li>
+									<li><a href="/index.html">装修定制</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="xianxia">线下o2o</a>
+								<ul class="submenu">
+									<li><a href="/index.html">餐饮美食</a></li>
+									<li><a href="/index.html">商旅服务</a></li>
+									<li><a href="/index.html">酒店住宿</a></li>
+									<li><a href="/index.html">教育培训</a></li>
+									<li><a href="/index.html">充值</a></li>
+									<li><a href="/index.html">生活服务</a></li>
+									<li><a href="/index.html">休闲娱乐</a></li>
+									<li><a href="/index.html">运动健身</a></li>
+									<li><a href="/index.html">旅游出行</a></li>
+									<li><a href="/index.html">丽人</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="jiayongdianqi">家用电器</a>
+								<ul class="submenu">
+									<li><a href="/index.html">电视</a></li>
+									<li><a href="/index.html">空调</a></li>
+									<li><a href="/index.html">洗衣机</a></li>
+									<li><a href="/index.html">冰箱</a></li>
+									<li><a href="/index.html">厨卫大电</a></li>
+									<li><a href="/index.html">厨房小电</a></li>
+									<li><a href="/index.html">生活电器</a></li>
+									<li><a href="/index.html">个护健康</a></li>
+									<li><a href="/index.html">家庭影音</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="food">食品酒水</a>
+								<ul class="submenu">
+									<li><a href="/index.html">休闲食品</a></li>
+									<li><a href="/index.html">进口食品</a></li>
+									<li><a href="/index.html">饮料冲调</a></li>
+									<li><a href="/index.html">茗茶</a></li>
+									<li><a href="/index.html">中外名酒</a></li>
+									<li><a href="/index.html">粮油调味</a></li>
+									<li><a href="/index.html">新鲜水果</a></li>
+									<li><a href="/index.html">海鲜水产</a></li>
+									<li><a href="/index.html">肉禽蛋品</a></li>
+									<li><a href="/index.html">新鲜蔬菜</a></li>
+									<li><a href="/index.html">冷饮冻食</a></li>
+									<li><a href="/index.html">地方特产</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="gefu">个护日用</a>
+								<ul class="submenu">
+									<li><a href="/index.html">面部护理</a></li>
+									<li><a href="/index.html">洗发护发</a></li>
+									<li><a href="/index.html">身体护理</a></li>
+									<li><a href="/index.html">口腔护理</a></li>
+									<li><a href="/index.html">女性护理</a></li>
+									<li><a href="/index.html">香水彩妆</a></li>
+									<li><a href="/index.html">清洁用品</a></li>
+									<li><a href="/index.html">宠物生活</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="computer">电脑办公</a>
+								<ul class="submenu">
+									<li><a href="/index.html">电脑整机</a></li>
+									<li><a href="/index.html">电脑配件</a></li>
+									<li><a href="/index.html">外设产品</a></li>
+									<li><a href="/index.html">游戏设备</a></li>
+									<li><a href="/index.html">网络产品</a></li>
+									<li><a href="/index.html">办公设备</a></li>
+									<li><a href="/index.html">文具耗材</a></li>
+									<li><a href="/index.html">服务产品</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="phone">手机数码</a>
+								<ul class="submenu">
+									<li><a href="/index.html">手机通讯</a></li>
+									<li><a href="/index.html">运营商</a></li>
+									<li><a href="/index.html">手机配件</a></li>
+									<li><a href="/index.html">摄影摄像</a></li>
+									<li><a href="/index.html">数码配件</a></li>
+									<li><a href="/index.html">影音娱乐</a></li>
+									<li><a href="/index.html">智能设备</a></li>
+									<li><a href="/index.html">电子教育</a></li>
+								</ul>
+							</li>
+							<li class="menulistselect"><a href="car">汽车用品</a>
+								<ul class="submenu">
+									<li><a href="/index.html">汽车车型</a></li>
+									<li><a href="/index.html">维修保养</a></li>
+									<li><a href="/index.html">车载电器</a></li>
+									<li><a href="/index.html">美容清洗</a></li>
+									<li><a href="/index.html">汽车装饰</a></li>
+									<li><a href="/index.html">安全自驾</a></li>
+									<li><a href="/index.html">赛事改装</a></li>
+									<li><a href="/index.html">汽车服务</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<ul class="yMenuIndex">
+						<li><a href="/">首页</a></li>
+						<li><a href="/">发现好店</a></li>
+						<li><a href="/">服装内衣</a></li>
+						<li><a href="/">鞋箱饰品</a></li>
+						<li><a href="/">运动钟表</a></li>
+						<li><a href="/">家装厨具</a></li>
+						<li><a href="/">线下O2O</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

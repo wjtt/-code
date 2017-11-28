@@ -1,0 +1,53 @@
+/*样式重置*/
+body,
+div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+fieldset, img { border:none; }
+img{display: block;}
+ul, ol { list-style:none; } 
+a {text-decoration:none; }
+
+.footer{
+	width: 1230px;
+	height: 245px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: #F9F9F9;
+}
+.footer dl{
+	width: 130px;
+	float: left;
+	padding: 25px 0;
+}
+.footer dl dt{
+	font-size: 20px;
+	color: #E46714;
+	font-weight: 300;
+	line-height: 35px;
+}
+.footer dl  dd{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 35px;
+}
+.footer dl dd a{
+	color: #555555;
+	cursor: pointer;
+}
+.contact{
+	width: 370px;
+	height: 245px;
+	padding: 25px 0;
+	float: left;
+}
+.contact li{
+	width: 370px;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+	font-size: 15px;
+}
